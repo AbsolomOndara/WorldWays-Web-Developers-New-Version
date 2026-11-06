@@ -18,6 +18,13 @@ Import this frontend folder into Vercel with the Next.js framework preset. Set `
 
 The admin sign-in is at `/admin/login`. Create the admin account in the backend environment before using it.
 
+## SEO and sitemap
+
+- Set `NEXT_PUBLIC_SITE_URL` to the canonical public domain, for example `https://worldwayswebdevelopers.co.ke`.
+- The generated sitemap is available at `/sitemap.xml`. It includes public pages and service detail pages; published blog posts are included when the backend API is available.
+- The robots file is available at `/robots.txt`; it points crawlers to the sitemap and excludes the admin route.
+- After deployment, verify the sitemap URL in a browser and submit it in Google Search Console for the verified domain. Search visibility and lead volume depend on indexing, competition, content quality and ongoing work; metadata alone cannot guarantee rankings.
+
 ## Email flow
 
 The contact form sends its message to the backend for the admin dashboard. Clicking the email address opens the visitor’s email application addressed to `info@worldwayswebdevelopers.co.ke`. To show messages sent directly to that mailbox in the dashboard, configure mailbox forwarding or a provider webhook to the backend inbound email endpoint.

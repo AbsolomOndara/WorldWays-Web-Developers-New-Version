@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next';
 export default function robots(): MetadataRoute.Robots {
-  return { rules: [{ userAgent: '*', allow: '/', disallow: '/admin/' }], sitemap: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://worldwayswebdevelopers.co.ke'}/sitemap.xml` };
+  const base=(process.env.NEXT_PUBLIC_SITE_URL||'https://worldwayswebdevelopers.co.ke').replace(/\/+$/,'');
+  return { rules: [{ userAgent: '*', allow: '/', disallow: ['/admin/'] }], sitemap: `${base}/sitemap.xml` };
 }
