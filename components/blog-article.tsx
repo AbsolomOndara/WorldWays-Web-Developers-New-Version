@@ -1,0 +1,5 @@
+'use client';
+import {useEffect,useState} from 'react';
+import {publicRequest} from '@/lib/api';
+type Post={title:string;body?:string;excerpt?:string;published_at?:string};
+export function BlogArticle({slug}:{slug:string}){const[post,setPost]=useState<Post|null>(null);const[error,setError]=useState('');useEffect(()=>{publicRequest<Post>(`/api/public/blog-posts/${encodeURIComponent(slug)}`).then(setPost).catch(e=>setError(e.message));},[slug]);if(error)return <div className="site-notice">This article is not available yet. Please return to <a href="/blog">Insights</a>.</div>;if(!post)return <p className="section-description">Loading article…</p>;return <article><p className="eyebrow"><i/>{post.published_at?new Date(post.published_at).toLocaleDateString():'Worldways insights'}</p><h1 className="section-title">{post.title}</h1>{post.excerpt&&<p className="section-description" style={{marginTop:16}}>{post.excerpt}</p>}<div style={{whiteSpace:'pre-wrap',fontSize:13,lineHeight:1.9,color:'#53655a',marginTop:28}}>{post.body}</div></article>}
