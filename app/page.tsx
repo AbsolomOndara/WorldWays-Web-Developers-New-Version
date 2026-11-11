@@ -4,7 +4,6 @@ import { ArrowRight, ArrowUpRight, Globe2, CloudCog, ShieldCheck, Newspaper, Bri
 import { SiteFrame } from '@/components/site-frame';
 import { HeroVideoCarousel } from '@/components/hero-video-carousel';
 import { HomeSearch } from '@/components/home-search';
-import { ReviewPreview } from '@/components/reviews';
 
 export const metadata:Metadata={title:{absolute:'Web, App & Software Development | Worldways'},description:'Worldways builds business websites, custom apps and digital systems, with cybersecurity, digital growth and dependable technology support worldwide.',alternates:{canonical:'/'}};
 
@@ -18,7 +17,6 @@ export default function HomePage(){
       <Link className="home-capability-card" href="/services"><span className="home-capability-icon"><ShieldCheck size={24}/></span><span className="home-capability-kicker">03 / Security and growth</span><h3>Cybersecurity and digital growth</h3><p>Strengthen your security posture and help the right people find, understand and engage with your organisation online.</p><span className="home-capability-link">Explore security and growth <ArrowUpRight size={15}/></span></Link>
     </div></div></section>
     <HomeSearch />
-    <ReviewPreview />
     <section className="home-next-steps"><div className="shell home-next-grid"><Link className="home-next-card" href="/blog"><span className="home-next-icon"><Newspaper size={22}/></span><span className="home-capability-kicker">Ideas and practical guidance</span><h2>Insights for the work ahead.</h2><p>Read perspectives on websites, software, cybersecurity and the choices behind useful technology.</p><span className="home-capability-link">Visit Insights <ArrowUpRight size={15}/></span></Link><Link className="home-next-card" href="/careers"><span className="home-next-icon"><BriefcaseBusiness size={22}/></span><span className="home-capability-kicker">Work with WorldWays</span><h2>Bring your skills to the table.</h2><p>We welcome conversations with developers, designers and technology specialists interested in thoughtful work.</p><span className="home-capability-link">Explore Careers <ArrowUpRight size={15}/></span></Link></div></section>
     <section className="home-closing-cta"><div className="shell home-closing-inner"><div><p className="eyebrow"><i/> Start a conversation</p><h2>Have a project that needs a <em>clear next step?</em></h2><p>Tell us what you are planning. We will listen, ask the right questions and help you map a sensible way forward.</p></div><Link className="button" href="/contact">Work with us <ArrowUpRight size={17}/></Link></div></section>
   </main></SiteFrame>
