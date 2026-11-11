@@ -14,13 +14,15 @@ Without a backend connection, the public pages still show their starter content.
 
 ## Homepage media
 
-The homepage hero rotates through five muted technology videos from Pexels, with manual slide controls and a pause button. Video is loaded for the active slide only. Supporting page photography is served from Unsplash. The original clips are available at:
+The homepage hero rotates through five muted technology videos from Pexels, including augmented reality and facial scanning footage, with manual slide controls and a pause button. Video is loaded for the active slide only. The service page also includes the illustrations supplied for this project. Supporting page photography is served from Unsplash. The original video clips are available at:
 
 - https://www.pexels.com/video/software-developer-18382358/
 - https://www.pexels.com/video/a-man-using-laptop-4974708/
 - https://www.pexels.com/video/a-programmer-working-on-a-laptop-computer-13522186/
-- https://www.pexels.com/video/futuristic-circuit-board-animation-34645150/
-- https://www.pexels.com/video/futuristic-circuit-board-with-glowing-connections-36405803/
+- https://www.pexels.com/video/futuristic-hands-holding-digital-hologram-32288743/
+- https://www.pexels.com/video/woman-doing-3d-scanning-8090196/
+
+The Projects page presents five live client sites with site marks and direct links. The Reviews page accepts client feedback for moderation. Submitted reviews are held for approval and managed through `/admin/reviews`.
 
 ## Deploy on Vercel
 
