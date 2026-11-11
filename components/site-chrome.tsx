@@ -11,7 +11,7 @@ const links = [
 ];
 function ThemeToggle(){const [theme,setTheme]=useState<'dark'|'light'>('dark');useEffect(()=>{const current=document.documentElement.dataset.theme==='light'?'light':'dark';setTheme(current)},[]);const toggle=()=>{const next=theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;localStorage.setItem('worldways-theme',next);setTheme(next)};return <button className="theme-toggle" type="button" onClick={toggle} aria-label={`Switch to ${theme==='dark'?'light':'dark'} mode`} title={`Switch to ${theme==='dark'?'light':'dark'} mode`}>{theme==='dark'?<Sun size={17}/>:<Moon size={17}/>}<span className="theme-toggle-label">{theme==='dark'?'Light mode':'Dark mode'}</span></button>}
 export function Brand() {
-  return <Link href="/" className="brand" aria-label="Worldways Web-Developers home"><span className="brand-symbol" aria-hidden="true">WW</span><span className="brand-words">WORLDWAYS<small>WEB-DEVELOPERS LTD</small></span></Link>;
+  return <Link href="/" className="brand" aria-label="Worldways Web-Developers home"><span className="brand-symbol" aria-hidden="true"><svg viewBox="0 0 48 48" role="presentation"><path d="M9 15.5 16.2 33l7.5-14.2L31.2 33 39 15.5"/><path className="brand-mark-accent" d="M9 15.5h6.1M32.8 15.5H39"/><circle cx="24" cy="18.8" r="1.4"/></svg></span><span className="brand-words">WORLDWAYS<small>WEB-DEVELOPERS LTD</small></span></Link>;
 }
 export function SiteHeader() {
   const pathname = usePathname();

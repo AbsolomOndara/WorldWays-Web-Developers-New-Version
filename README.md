@@ -24,7 +24,9 @@ The homepage hero rotates through five muted Pexels clips showing active code wo
 
 Each public page uses its own original people-led illustration, including a dedicated Careers image, and the four featured service tiles have separate artwork. Page backgrounds no longer use the blurred code texture. The homepage hero retains its five softly blurred code videos. Dark mode is the default, with a persistent light-mode toggle. The desktop navigation prioritises Services, Case Studies, Company, About, Insights, Careers and Pricing, with a clear Work With Us action. The mobile navigation is a full-screen single-column drawer with separated links.
 
-The Case Studies page presents five live client sites with project logos or clear custom wordmarks and direct links. The Reviews page accepts client feedback for moderation. Submitted reviews are held for approval and managed through `/admin/reviews`.
+The Case Studies page presents published client sites with logos or clear custom wordmarks and direct links. The Projects admin page manages each card’s title, sector, description, live URL, logo URL and publication status. The Reviews page accepts client feedback for moderation. Submitted reviews are held for approval and managed through `/admin/reviews`.
+
+The homepage includes an interactive service and company directory with a keyword field, category tabs and A–Z service filters. Project case studies are shown only on the Projects page. Public blog listings and article pages fetch published entries from the API on each request, so newly published posts are server-rendered without relying on a browser hydration pass. The admin workspace has a higher-contrast dark theme by default, a light/dark toggle and larger controls and table text.
 
 ## Deploy on Vercel
 
