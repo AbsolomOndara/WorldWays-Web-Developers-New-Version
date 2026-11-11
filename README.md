@@ -22,7 +22,7 @@ The homepage hero rotates through five muted Pexels clips showing active code wo
 - https://www.pexels.com/video/running-codes-on-a-computer-6804121/
 - https://www.pexels.com/video/close-up-on-coding-on-laptop-screen-11274330/
 
-Page headers, service tiles, and the homepage feature gallery use original vector cartoon illustrations. A light carbon-bond network pattern carries across public content sections. The fixed WhatsApp support card links to the company support number. The navigation opens a two-column mobile menu with every primary link visible without a nested scrolling panel.
+Each public page uses its own original people-led illustration, and the four featured service tiles have separate artwork. The hero rotates through five softly blurred code videos, while page backgrounds stay clean and unobstructed. The fixed WhatsApp support card links to the company support number. The navigation opens a two-column mobile menu with every primary link visible without a nested scrolling panel.
 
 The Projects page presents five live client sites with site marks and direct links. The Reviews page accepts client feedback for moderation. Submitted reviews are held for approval and managed through `/admin/reviews`.
 
