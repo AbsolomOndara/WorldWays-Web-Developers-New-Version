@@ -1,4 +1,4 @@
-# Worldways Web-Developers Ltd — React Frontend
+# Worldways Web-Developers Ltd - React Frontend
 
 A Vercel-ready Next.js and React website for Worldways Web-Developers Ltd. This is the frontend package; the separate Express API is in the `WorldWays-Backend` package.
 
@@ -11,6 +11,16 @@ A Vercel-ready Next.js and React website for Worldways Web-Developers Ltd. This 
 5. Start with `npm run dev` and open `http://localhost:3000`.
 
 Without a backend connection, the public pages still show their starter content. Contact form submissions, subscriptions, live pricing and admin tools need the backend URL configured.
+
+## Homepage media
+
+The homepage hero rotates through five muted technology videos from Pexels, with manual slide controls and a pause button. Video is loaded for the active slide only. Supporting page photography is served from Unsplash. The original clips are available at:
+
+- https://www.pexels.com/video/software-developer-18382358/
+- https://www.pexels.com/video/a-man-using-laptop-4974708/
+- https://www.pexels.com/video/a-programmer-working-on-a-laptop-computer-13522186/
+- https://www.pexels.com/video/futuristic-circuit-board-animation-34645150/
+- https://www.pexels.com/video/futuristic-circuit-board-with-glowing-connections-36405803/
 
 ## Deploy on Vercel
 

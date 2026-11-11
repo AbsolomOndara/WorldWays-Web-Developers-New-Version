@@ -13,6 +13,6 @@ export function ContactForm() {
 }
 export function SubscribeForm() {
  const [status, setStatus] = useState(''); const [busy, setBusy] = useState(false);
- async function submit(event: FormEvent<HTMLFormElement>) { event.preventDefault(); setBusy(true); setStatus(''); const form=event.currentTarget; const email=new FormData(form).get('email'); try { await publicRequest('/api/public/subscriptions',{method:'POST',body:JSON.stringify({email})}); setStatus('You’re subscribed. Thank you.'); form.reset(); } catch (e) { setStatus(e instanceof Error ? e.message : 'Please try again later.'); } finally { setBusy(false); } }
+ async function submit(event: FormEvent<HTMLFormElement>) { event.preventDefault(); setBusy(true); setStatus(''); const form=event.currentTarget; const email=new FormData(form).get('email'); try { await publicRequest('/api/public/subscriptions',{method:'POST',body:JSON.stringify({email})}); setStatus('You are subscribed. Thank you.'); form.reset(); } catch (e) { setStatus(e instanceof Error ? e.message : 'Please try again later.'); } finally { setBusy(false); } }
  return <form className="subscription-form" onSubmit={submit}><input type="email" name="email" placeholder="Your email address" aria-label="Your email address" required/><button className="button button-lime" disabled={busy}>{busy?'Joining…':'Subscribe'} ↗</button>{status&&<span className="form-message">{status}</span>}</form>;
 }
