@@ -22,9 +22,9 @@ The homepage hero rotates through five muted Pexels clips showing active code wo
 - https://www.pexels.com/video/running-codes-on-a-computer-6804121/
 - https://www.pexels.com/video/close-up-on-coding-on-laptop-screen-11274330/
 
-Each public page uses its own original people-led illustration, and the four featured service tiles have separate artwork. The hero rotates through five softly blurred code videos, while page backgrounds stay clean and unobstructed. The fixed WhatsApp support card links to the company support number. The navigation opens a two-column mobile menu with every primary link visible without a nested scrolling panel.
+Each public page uses its own original people-led illustration, including a dedicated Careers image, and the four featured service tiles have separate artwork. Page backgrounds no longer use the blurred code texture. The homepage hero retains its five softly blurred code videos. Dark mode is the default, with a persistent light-mode toggle. The desktop navigation prioritises Services, Case Studies, Company, About, Insights, Careers and Pricing, with a clear Work With Us action. The mobile navigation is a full-screen single-column drawer with separated links.
 
-The Projects page presents five live client sites with site marks and direct links. The Reviews page accepts client feedback for moderation. Submitted reviews are held for approval and managed through `/admin/reviews`.
+The Case Studies page presents five live client sites with project logos or clear custom wordmarks and direct links. The Reviews page accepts client feedback for moderation. Submitted reviews are held for approval and managed through `/admin/reviews`.
 
 ## Deploy on Vercel
 

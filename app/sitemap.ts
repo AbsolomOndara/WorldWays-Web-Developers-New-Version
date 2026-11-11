@@ -6,7 +6,7 @@ export const revalidate = 3600;
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = (process.env.NEXT_PUBLIC_SITE_URL || 'https://worldwayswebdevelopers.co.ke').replace(/\/+$/, '');
   const paths = [
-    '/', '/about', '/company', '/services', '/projects', '/reviews', '/pricing', '/faqs', '/blog', '/contact',
+    '/', '/about', '/company', '/services', '/projects', '/reviews', '/pricing', '/faqs', '/blog', '/careers', '/contact',
     ...services.map(service => `/services/${service.slug}`),
   ];
   const pages: MetadataRoute.Sitemap = paths.map(path => ({
