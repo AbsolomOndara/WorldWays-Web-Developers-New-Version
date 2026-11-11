@@ -14,13 +14,15 @@ Without a backend connection, the public pages still show their starter content.
 
 ## Homepage media
 
-The homepage hero rotates through five muted technology videos from Pexels, including augmented reality and facial scanning footage, with manual slide controls and a pause button. Video is loaded for the active slide only. The service page also includes the illustrations supplied for this project. Supporting page photography is served from Unsplash. The original video clips are available at:
+The homepage hero rotates through five muted Pexels clips showing active code work, with manual slide controls and a pause button. It advances every 5.5 seconds and loads the active slide only. Original video pages:
 
-- https://www.pexels.com/video/software-developer-18382358/
-- https://www.pexels.com/video/a-man-using-laptop-4974708/
-- https://www.pexels.com/video/a-programmer-working-on-a-laptop-computer-13522186/
-- https://www.pexels.com/video/futuristic-hands-holding-digital-hologram-32288743/
-- https://www.pexels.com/video/woman-doing-3d-scanning-8090196/
+- https://www.pexels.com/video/close-up-on-computer-screen-while-programming-10130349/
+- https://www.pexels.com/video/programming-a-computer-1992325/
+- https://www.pexels.com/video/person-encoding-in-a-computer-2278095/
+- https://www.pexels.com/video/running-codes-on-a-computer-6804121/
+- https://www.pexels.com/video/close-up-on-coding-on-laptop-screen-11274330/
+
+Page headers, service tiles, and the homepage feature gallery use original vector cartoon illustrations. A light carbon-bond network pattern carries across public content sections. The fixed WhatsApp support card links to the company support number. The navigation opens a two-column mobile menu with every primary link visible without a nested scrolling panel.
 
 The Projects page presents five live client sites with site marks and direct links. The Reviews page accepts client feedback for moderation. Submitted reviews are held for approval and managed through `/admin/reviews`.
 

@@ -395,3 +395,100 @@ body{font-size:19px}
 }
 @media(prefers-reduced-motion:reduce){.projects-marquee-track{animation:none}.projects-marquee-copy{display:none}}
 
+/* Global visual language: soft carbon bonds, lively vector scenes and clear movement. */
+.bond-section,.section,.about-story,.about-principles,.company-values,.company-profile,.projects-showcase-section,.projects-intro,.service-highlights,.home-photo-strip,.home-intro{
+ background-image:url('/illustrations/carbon-bond.svg');background-repeat:repeat;background-size:440px 312px;background-position:center top
+}
+.page-hero{background-color:#f2f6ef;background-image:linear-gradient(90deg,rgba(247,249,244,.96),rgba(237,245,235,.82)),url('/illustrations/carbon-bond.svg');background-size:auto,440px 312px}
+.page-hero-image{display:grid;place-items:center;background:#e7f0e6!important;border:1px solid rgba(34,103,66,.12);box-shadow:0 20px 52px rgba(27,57,40,.1)}
+.page-hero-image:after{display:none!important}
+.page-hero-image .cartoon-art{width:100%;height:100%;object-fit:contain;padding:8px;animation:illustrationFloat 6s ease-in-out infinite}
+.page-hero-image span{left:18px;bottom:16px;padding:9px 13px;border-radius:22px;background:rgba(255,255,255,.9);color:#216747;font-size:12px;box-shadow:0 6px 18px rgba(32,74,46,.08)}
+.cartoon-art{display:block;width:100%;height:auto;overflow:visible}
+.home-photo-strip{background-color:#f2f6ef}
+.home-photo-grid figure{background:#e8f1e7;border:1px solid #dfebdf}
+.home-photo-grid figure:after{display:none}
+.home-photo-grid figure .cartoon-art{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:8px}
+.home-photo-grid figcaption{left:14px;right:14px;bottom:13px;width:max-content;max-width:calc(100% - 28px);padding:10px 13px;border-radius:24px;background:rgba(255,255,255,.95);color:#214d36;font-size:14px;box-shadow:0 7px 22px rgba(20,55,33,.09)}
+.service-card-photo{height:188px;background:#edf4ec}
+.service-card-photo .cartoon-art{width:100%;height:100%;object-fit:contain;padding:4px 13px}
+.service-card:hover .cartoon-art,.service-highlight-card:hover .cartoon-art{animation:illustrationFloat 1.8s ease-in-out infinite}
+.service-highlight-art{display:grid;place-items:center;background:#e9f3e8}
+.service-highlight-art .cartoon-art{width:100%;height:100%;object-fit:contain;padding:5px}
+.service-highlight-card{border-radius:17px;overflow:hidden;box-shadow:0 11px 32px rgba(23,67,41,.07);transition:transform .25s,box-shadow .25s}
+.service-highlight-card:hover{transform:translateY(-5px);box-shadow:0 20px 42px rgba(23,67,41,.13)}
+.projects-showcase-section{background-color:#eef4eb}
+.projects-intro{background-color:#fff;border-bottom:1px solid #e8eee8}
+.projects-marquee-track{animation-duration:34s}
+.project-showcase-card{width:360px;min-height:342px;padding:26px 27px 24px;border:1px solid rgba(53,104,72,.14);border-radius:20px;background:linear-gradient(155deg,#e7f3e6 0%,#fff 47%,#fff 100%);box-shadow:0 18px 46px rgba(18,55,32,.1);transition:transform .3s,box-shadow .3s}
+.project-showcase-card:before{content:'';position:absolute;right:-39px;top:-47px;width:142px;height:142px;border:1px solid rgba(38,118,73,.16);border-radius:50%;box-shadow:0 0 0 16px rgba(38,118,73,.04),0 0 0 34px rgba(38,118,73,.035);pointer-events:none}
+.project-showcase-card:hover{transform:translateY(-6px);box-shadow:0 26px 54px rgba(18,55,32,.16)}
+.project-card-head,.project-card-body{position:relative;z-index:1}
+.project-logo-wrap{width:84px;height:84px;border-radius:19px;border-color:#e1ebe1;box-shadow:0 9px 22px rgba(20,48,31,.09)}
+.project-logo-wrap img{width:62px;height:62px}
+.project-sector{background:#e8f1e5;font-size:12px}
+.project-card-body h3{margin-top:26px;font-size:25px}
+.project-card-body p{font-size:16px}
+.project-card-rule{height:5px}
+.reviews-preview{background-color:#fff}
+.review-card{border-radius:17px;box-shadow:0 12px 30px rgba(26,63,39,.055);transition:transform .25s,box-shadow .25s}
+.review-card:hover{transform:translateY(-4px);box-shadow:0 18px 36px rgba(26,63,39,.1)}
+.faq-content{display:grid;grid-template-columns:.7fr 1.3fr;gap:58px;align-items:start}
+.faq-intro-card{position:sticky;top:112px;padding:30px;border:1px solid rgba(54,110,70,.12);border-radius:21px;background:rgba(246,249,243,.92);box-shadow:0 15px 38px rgba(28,70,43,.06)}
+.faq-intro-card h2{font:700 clamp(29px,3vw,40px)/1.14 var(--display);letter-spacing:-.045em;margin:0 0 13px}
+.faq-intro-card>p:last-child{font-size:16px;line-height:1.75;color:#69776e;margin:0}
+.faq-item{border-radius:13px;background:rgba(255,255,255,.92);box-shadow:0 6px 20px rgba(30,70,44,.035);transition:transform .22s,box-shadow .22s}
+.faq-item:hover{transform:translateX(3px);box-shadow:0 9px 24px rgba(30,70,44,.08)}
+.section-dark{background-image:linear-gradient(rgba(14,58,39,.92),rgba(14,58,39,.92)),url('/illustrations/carbon-bond.svg');background-size:auto,440px 312px}
+.site-footer{background-image:linear-gradient(rgba(13,39,28,.96),rgba(13,39,28,.96)),url('/illustrations/carbon-bond.svg');background-size:auto,440px 312px}
+.whatsapp-widget{position:fixed;z-index:120;right:24px;bottom:23px;display:flex;flex-direction:column;align-items:flex-end;gap:12px;font-family:Arial,sans-serif}
+.whatsapp-launcher{display:flex;align-items:center;justify-content:center;gap:10px;min-height:51px;padding:9px 20px;border:0;border-radius:30px;background:#45c54b;color:#fff;box-shadow:0 5px 13px rgba(0,0,0,.24);font-size:17px;font-weight:700;transition:transform .2s,background .2s}
+.whatsapp-launcher:hover{transform:translateY(-2px);background:#37b83e}
+.whatsapp-panel{width:360px;height:315px;max-width:calc(100vw - 32px);display:grid;grid-template-rows:100px 1fr 76px;overflow:hidden;border-radius:13px;background:#fff;box-shadow:0 7px 25px rgba(0,0,0,.22);animation:whatsappAppear .22s ease both}
+.whatsapp-panel-head{display:flex;align-items:center;gap:15px;padding:16px 19px;background:#09685e;color:#fff}
+.whatsapp-avatar{width:51px;height:51px;display:grid;place-items:center;flex:none;border-radius:50%;background:#2473af;color:#fff;box-shadow:0 3px 8px rgba(0,0,0,.15)}
+.whatsapp-heading{display:grid;gap:5px;min-width:0}.whatsapp-heading strong{font-size:16px}.whatsapp-heading small{font-size:14px;font-weight:600}
+.whatsapp-close{margin-left:auto;align-self:flex-start;width:28px;height:28px;display:grid;place-items:center;border:0;background:transparent;color:#fff}
+.whatsapp-conversation{display:flex;align-items:center;padding:14px 20px;background-color:#eee7df;background-image:radial-gradient(circle at 18% 30%,rgba(89,116,94,.09) 0 3px,transparent 4px),radial-gradient(circle at 75% 64%,rgba(89,116,94,.08) 0 5px,transparent 6px),radial-gradient(circle at 44% 82%,rgba(89,116,94,.06) 0 4px,transparent 5px);background-size:44px 42px,67px 58px,54px 61px}
+.whatsapp-message{max-width:255px;padding:11px 12px 9px;border-radius:12px;background:#fff;box-shadow:0 2px 4px rgba(0,0,0,.05)}
+.whatsapp-message strong{display:block;color:#8c918e;font-size:13px;margin-bottom:5px}.whatsapp-message p{margin:0;color:#333;font-size:14px;line-height:1.4}.whatsapp-message time{display:block;margin-top:6px;color:#99a09a;font-size:10px}
+.whatsapp-panel-action{display:grid;place-items:center;padding:12px 20px;background:#fff}
+.whatsapp-panel-action a{width:100%;height:38px;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:24px;background:#45c54b;color:#fff;font-size:15px;font-weight:700;transition:background .2s}
+.whatsapp-panel-action a:hover{background:#35b63d}
+@keyframes whatsappAppear{from{opacity:0;transform:translateY(9px) scale(.98)}to{opacity:1;transform:none}}
+@keyframes illustrationFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.reveal-on-scroll{transition:opacity .65s ease,transform .65s cubic-bezier(.2,.7,.2,1);transition-delay:var(--reveal-delay,0ms)}
+.motion-ready .reveal-on-scroll:not(.is-revealed){opacity:0;transform:translateY(24px)}
+.motion-ready .page-hero-copy.reveal-on-scroll:not(.is-revealed){transform:translateX(-18px)}
+.motion-ready .page-hero-image.reveal-on-scroll:not(.is-revealed){transform:translateX(18px)}
+@media(max-width:900px){
+ .nav-links.open{position:fixed;top:76px;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:minmax(58px,auto);align-content:start;gap:9px;padding:22px 22px 28px;background:#fff;overflow:hidden;box-shadow:0 18px 28px rgba(18,49,29,.14)}
+ .nav-links a{display:flex;align-items:center;padding:13px 14px;border:1px solid #e6ece4;border-radius:10px;background:#f7f9f5;font-size:16px}
+ .nav-links a.active{border-color:#94be9c;background:#eaf3e8;color:#1e6b47}
+ .nav-links .nav-cta{grid-column:1/-1;justify-content:center;margin:0;min-height:52px;border:0;border-radius:9px;background:var(--green);color:#fff}
+ .nav-links .search-button{grid-column:1/-1;width:100%;height:50px;display:flex;align-items:center;gap:10px;padding:0 14px;border:1px solid #e6ece4;border-radius:10px;background:#fff;color:#39654a}
+ .menu-button{position:relative;z-index:1004;width:46px;height:46px;border-radius:11px}
+ body.navigation-open{overflow:hidden}
+ .faq-content{grid-template-columns:1fr;gap:25px}
+ .faq-intro-card{position:static}
+}
+@media(max-width:600px){
+ .site-header{z-index:1000}
+ .nav-links.open{top:68px;grid-auto-rows:minmax(51px,auto);gap:8px;padding:17px 18px 24px}
+ .nav-links a{font-size:15px;padding:10px 12px}
+ .whatsapp-widget{right:14px;bottom:14px;gap:9px}
+ .whatsapp-panel{width:360px;height:315px;grid-template-rows:91px 1fr 69px}
+ .whatsapp-launcher{min-height:49px;padding:8px 16px;font-size:16px}
+ .projects-showcase-section{padding-top:60px}
+ .project-showcase-card{width:min(84vw,350px);min-height:320px;padding:22px;border-radius:18px}
+ .project-card-body h3{font-size:22px}
+ .page-hero-image{height:250px}
+ .page-hero-image .cartoon-art{padding:2px}
+ .home-photo-grid{grid-template-columns:1fr;gap:13px}
+ .home-photo-grid figure,.home-photo-grid figure:first-child{min-height:240px}
+ .home-photo-grid figcaption{font-size:13px}
+ .faq-intro-card{padding:24px}
+}
+@media(max-height:560px) and (max-width:900px){.nav-links.open{grid-auto-rows:minmax(43px,auto);gap:6px;padding-top:11px;padding-bottom:12px}.nav-links a{padding:8px 11px}.nav-links .search-button{height:42px}.nav-links .nav-cta{min-height:44px}}
+@media(prefers-reduced-motion:reduce){.reveal-on-scroll,.cartoon-art,.service-highlight-card,.service-card,.project-showcase-card,.review-card{animation:none!important;transition:none!important}.motion-ready .reveal-on-scroll:not(.is-revealed){opacity:1;transform:none}.projects-marquee-track{animation:none!important}}
+
